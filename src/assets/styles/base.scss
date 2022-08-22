@@ -1,0 +1,68 @@
+@import './_reset.scss';
+@import './_fonts.scss';
+
+html {
+  font-size: 16px;
+  min-height: 100vh;
+}
+
+body {
+  color: $clr-grey-dark;
+  font-family: 'Glacial Indifference';
+  font-weight: normal;
+}
+
+#app {
+  padding-top: 60px;
+
+  @media only screen and (min-width: $breakpoint-md) {
+    padding-top: 80px;
+  }
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+
+  @media only screen and (min-width: $breakpoint-md) {
+    font-size: 30px;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  padding: 12px;
+  width: 100%;
+
+  @media only screen and (min-width: $breakpoint-xs) {
+      max-width: 540px;
+  }
+
+  @media only screen and (min-width: $breakpoint-sm) {
+      max-width: 720px;
+  }
+
+  @media only screen and (min-width: $breakpoint-md) {
+      max-width: 960px;
+  }
+
+  @media only screen and (min-width: $breakpoint-lg) {
+      max-width: 1264px;
+  }
+
+  @media only screen and (min-width: $breakpoint-xl) {
+      max-width: 1600px;
+  }
+}
+
+.muted {
+  opacity: 0.8;
+}
+
+.not-selectable {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
