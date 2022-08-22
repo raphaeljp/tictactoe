@@ -29,7 +29,8 @@ npm run serve
 This will start a local server at [http://localhost:8080](http://localhost:8080).
 
 ### Run unit tests
-This application runs unit tests using [Jest](https://jestjs.io/)
+This application runs unit tests using [Jest](https://jestjs.io/).
+
 To run the tests, use the following command on the project root folder:
 ```
 npm run test:unit
